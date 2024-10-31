@@ -1,0 +1,44 @@
+body{
+   background-color:black ; 
+}
+.strona{
+display: flex;
+
+justify-content: center;
+background-color: rgb(7, 4, 0);
+}
+
+.kont1{
+    display: flex;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 10px;
+    padding-bottom: 70px;
+    
+    }
+
+.logo{
+    flex:1;
+    text-align: left;
+    background-color: aquamarine;
+    margin-left: 100px;
+    font-size: 24px;
+    }
+
+.link{
+    display: flex;
+    text-align: right;
+    background-color: aquamarine;
+    padding: 2px;
+    margin-right: 100px;
+    }
+
+.link div{
+    gap: 10px;
+    font-size: 12px;
+    
+}
+
+
+
